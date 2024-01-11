@@ -1,0 +1,23 @@
+body{
+    background-color: #24353f;
+}
+.box-contact ,.nav{
+    background-color: #24353f;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+    width: 60%;
+}
+.box-contact input::placeholder{
+    color: aliceblue;
+}
+.box-contact input:focus{
+    box-shadow: none !important;
+}
+.box-contact form p{
+    color: aliceblue;
+}
+.box-contact form p span:hover{
+    cursor: pointer;
+    text-decoration: underline !important;
+}
+
+
